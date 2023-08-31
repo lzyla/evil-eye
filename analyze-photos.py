@@ -1,18 +1,9 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 21 10:52:10 2023
-
-@author: lukaszzyla
-"""
-
-
 import os
 from google.cloud import vision
 import io
 
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/lukaszzyla/.config/gcloud/application_default_credentials.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=".../.config/gcloud/application_default_credentials.json"
 
 
 client = vision.ImageAnnotatorClient()
