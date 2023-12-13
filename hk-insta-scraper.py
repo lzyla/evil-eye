@@ -24,7 +24,7 @@ from hikerapi import Client
 import shutil  # Import modułu do przenoszenia plików
 
 # Inicjalizacja klienta hikerapi
-cl = Client(token="M6y4xy5oO2dMaroLXpekq7h8lIiyHcya")
+cl = Client(token="M6y4xy5oO2dMaroLXpekq7h8lIiyHcya") # promotional (trial) token ;)
 
 # Wczytaj dane z pliku CSV
 df = pd.read_csv('hashtags_locations.csv')
